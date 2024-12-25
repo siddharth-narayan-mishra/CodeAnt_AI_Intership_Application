@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Satoshi";
+    font-style: normal;
+    font-display: swap;
+    src: url(/fonts/Satoshi.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-display: swap;
+    src: url(/fonts/Inter.woff2) format("woff2");
+  }
+}
+
+@layer components {
+  .text-secondary {
+    color: #414651;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .shadow-custom {
+    box-shadow: 0px 0px 0px 1px rgba(10, 13, 18, 0.18) inset,
+      0px -2px 0px 0px rgba(10, 13, 18, 0.05) inset,
+      0px 1px 2px 0px rgba(10, 13, 18, 0.05);
+  }
+
+  .shadow-login{
+    box-shadow: 0px 0px 24px 0px rgba(8, 23, 53, 0.16);
+  }
+}
