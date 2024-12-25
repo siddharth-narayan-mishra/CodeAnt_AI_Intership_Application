@@ -2,6 +2,10 @@
 
 This repository contains the completed assignment for the Frontend Developer Intern role at CodeAnt AI. The project involved implementing a functional frontend based on a Figma design using ReactJS, HTML, and CSS, adhering to best practices for clean, maintainable, and scalable code.
 
+## Hosted Website
+The website is hosted on Vercel at https://code-ant-sid.vercel.app
+Please go to https://code-ant-sid.vercel.app/login for login page
+
 ## Libraries used:
   - Tailwind CSS
   - React Router
